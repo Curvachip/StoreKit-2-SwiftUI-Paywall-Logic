@@ -1,0 +1,166 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "313B92D3",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "internalID" : "FC5286A8",
+      "localizations" : [
+        {
+          "description" : "Lifetime Access to Premium Features",
+          "displayName" : "Example Premium Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "example_lifetime",
+      "referenceName" : "Example-Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_compatibilityTimeRate" : {
+      "3" : 6
+    },
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ],
+    "_timeRate" : 1003
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "07D40061",
+      "localizations" : [
+
+      ],
+      "name" : "Example-Subscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "24.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "B00DBA5A",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Yearly Access to Premium Features",
+              "displayName" : "Example Premium Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "example_yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Example-Yearly",
+          "subscriptionGroupID" : "07D40061",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "12.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "03FF4AD0",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "0F83C43E",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Monthly Access to Premium Features",
+              "displayName" : "Example Premium Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "example_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Example-Monthly",
+          "subscriptionGroupID" : "07D40061",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
